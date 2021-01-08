@@ -1,0 +1,102 @@
+html.body{margin: 0;}
+img{width: 100%; vertical-align: top;}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header h1{
+    width: 178px; height: 40px;
+    margin: 112px 0 59px 29px;
+}
+header nav{
+    margin: 136px 0 63px 0;
+}
+header nav a:hover{
+    text-decoration: underline;
+    height: 3px;
+}
+header nav a{
+    margin-right: 5px;
+}
+
+main{
+    width: 1400px; margin: 0 auto;
+    
+}
+.ex_01{
+    width: 1200px; height: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.ex_01 img{
+    width: 90%;
+   order: 2; 
+   margin: 0;
+}
+.ex_01 span a{
+    position: absolute;
+    width: 125px; height: 25px;
+    background: url('../imgs/Layer\ 1.png')no-repeat;
+    right:45px; top: 37px;
+    display: inline-block;}
+    
+.ex_01 p{
+    order: 1;
+    position: absolute;
+    transform: rotate(-90deg);
+    
+    margin: 0;
+    display: inline;
+    bottom: 150px; left:0px;
+    
+    
+}
+
+.ex_02{
+    width: 1200px; margin: 0 auto;
+   
+}
+.ex_02 figure{
+    display: flex;
+    justify-content: space-between;
+    margin: 69px 0 76px 0;
+}
+.ex_02 figure img{
+    width: 540px; height:260px;
+    order: 2;
+}
+.ex_02 figure figcaption{
+    order: 1;
+}
+.ex_02 figure figcaption h2{
+    white-space: pre-line;
+    margin: 0;
+    font-size: 48px;
+}
+.ex_02 figure figcaption p{
+    white-space: pre-line;
+    margin-bottom: 49px;
+}
+.ex_02 figure figcaption a{}
+
+footer{
+    background:#434343;
+    width: 100%; height: 84px;
+    text-align: center;
+    color:#bcbcbc;
+    line-height: 70px;
+}
+
